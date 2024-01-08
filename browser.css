@@ -1,0 +1,20 @@
+/* Width and color of the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle or thumb of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 5px;
+}
+
+/* Track of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Corner between vertical and horizontal scrollbar */
+::-webkit-scrollbar-corner {
+  background: transparent; /* Color of the scrollbar corner */
+}
